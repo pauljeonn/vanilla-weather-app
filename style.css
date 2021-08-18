@@ -59,13 +59,13 @@ input.search-bar {
 	width: calc(100% - 80px);
 }
 
-.weather .loading {
+.weather.loading {
 	visibility: hidden;
 	max-height: 20px;
 	position: relative;
 }
 
-.weather .loading:after {
+.weather.loading::after {
 	visibility: visible;
 	content: 'Loading...';
 	color: white;
